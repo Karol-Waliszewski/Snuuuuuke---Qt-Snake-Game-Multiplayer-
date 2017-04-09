@@ -69,14 +69,3 @@ void Menu::on_settingsButton_clicked()
 {
     currWindow(1); // 1 = SETTINGS
 }
-
-
-void Menu::on_HTPButton_clicked()
-{
-   //
-}
-
-void Menu::on_creditsButton_clicked()
-{
-
-}
