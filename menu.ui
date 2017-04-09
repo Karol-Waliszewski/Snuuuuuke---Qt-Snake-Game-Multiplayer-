@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Menu</class>
+ <widget class="QWidget" name="Menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>832</width>
+    <height>582</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>14</number>
+     </property>
+     <property name="sizeConstraint">
+      <enum>QLayout::SetDefaultConstraint</enum>
+     </property>
+     <item>
+      <widget class="MyPushButton" name="spButton">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Chinese Rocks Rg</family>
+         <pointsize>20</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/menu/img/ButtonFrame.png);
+background-image: url(:/menu/img/ALLGAMEBG.png);
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+color: rgb(164, 175, 141);</string>
+       </property>
+       <property name="text">
+        <string>SinglePlayer</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="MyPushButton" name="mpButton">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Chinese Rocks Rg</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/menu/img/ButtonFrame.png);
+background-image: url(:/menu/img/ALLGAMEBG.png);
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+color: rgb(164, 175, 141);</string>
+       </property>
+       <property name="text">
+        <string>MultiPlayer</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="MyPushButton" name="settingsButton">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Chinese Rocks Rg</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/menu/img/ButtonFrame.png);
+background-image: url(:/menu/img/ALLGAMEBG.png);
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+color: rgb(164, 175, 141);</string>
+       </property>
+       <property name="text">
+        <string>Settings</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="MyPushButton" name="HTPButton">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Chinese Rocks Rg</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/menu/img/ButtonFrame.png);
+background-image: url(:/menu/img/ALLGAMEBG.png);
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+color: rgb(164, 175, 141);</string>
+       </property>
+       <property name="text">
+        <string>How To Play?</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="MyPushButton" name="creditsButton">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Chinese Rocks Rg</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/menu/img/ButtonFrame.png);
+background-image: url(:/menu/img/ALLGAMEBG.png);
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+color: rgb(164, 175, 141);</string>
+       </property>
+       <property name="text">
+        <string>Credits</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="MyPushButton" name="quitButton">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Chinese Rocks Rg</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/menu/img/ButtonFrame.png);
+background-image: url(:/menu/img/ALLGAMEBG.png);
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+color: rgb(164, 175, 141);</string>
+       </property>
+       <property name="text">
+        <string>Quit</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="1" rowspan="3" colspan="2">
+    <widget class="QLabel" name="logoLabel">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MyPushButton</class>
+   <extends>QPushButton</extends>
+   <header>mypushbutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

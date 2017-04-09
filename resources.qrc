@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/game">
+        <file>img/Button.png</file>
+    </qresource>
+    <qresource prefix="/menu">
+        <file>img/ALLGAMEBG.png</file>
+        <file>img/ButtonFrame.png</file>
+        <file>img/ButtonFrameActive.png</file>
+        <file>img/logo.png</file>
+        <file>img/HOW TO PLAY.png</file>
+    </qresource>
+    <qresource prefix="/Icon">
+        <file>img/wonsz.ico</file>
+    </qresource>
+</RCC>
